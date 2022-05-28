@@ -1,5 +1,4 @@
-@extends('main')
-@section('content')
+
 
 
         <main class="main">
@@ -29,7 +28,7 @@
                                         <div class="intro-content">
                                             <h3 class="intro-subtitle text-primary">Daily Deals</h3><!-- End .h3 intro-subtitle -->
                                             <h1 class="intro-title">
-                                                AirPods <br>Earphones
+                                                AirPods <br>Earxiaomi
                                             </h1><!-- End .intro-title -->
 
                                             <div class="intro-price">
@@ -211,7 +210,7 @@
 
                                 <div class="product-body">
                                     <div class="product-cat">
-                                        <a href="#">Smartwatches</a>
+                                        <a href="#">Smartoppo</a>
                                     </div><!-- End .product-cat -->
                                     <h3 class="product-title"><a href="product.html">Apple - Apple Watch Series 3 with White Sport Band</a></h3><!-- End .product-title -->
                                     <div class="product-price">
@@ -475,7 +474,7 @@
 
                                 <div class="product-body">
                                     <div class="product-cat">
-                                        <a href="#">Smartwatches</a>
+                                        <a href="#">Smartoppo</a>
                                     </div><!-- End .product-cat -->
                                     <h3 class="product-title"><a href="product.html">Apple - Apple Watch Series 3 with White Sport Band</a></h3><!-- End .product-title -->
                                     <div class="product-price">
@@ -639,7 +638,7 @@
 
                                 <div class="product-body">
                                     <div class="product-cat">
-                                        <a href="#">Smartwatches</a>
+                                        <a href="#">Smartoppo</a>
                                     </div><!-- End .product-cat -->
                                     <h3 class="product-title"><a href="product.html">Apple - Apple Watch Series 3 with White Sport Band</a></h3><!-- End .product-title -->
                                     <div class="product-price">
@@ -812,7 +811,7 @@
 
                                             <div class="product-body">
                                                 <div class="product-cat">
-                                                    <a href="#">Computers & Tablets</a>
+                                                    <a href="#">samsung & Tablets</a>
                                                 </div><!-- End .product-cat -->
                                                 <h3 class="product-title"><a href="product.html">Apple - Smart Keyboard Folio  for 11-inch iPad Pro</a></h3><!-- End .product-title -->
                                                 <div class="product-price">
@@ -906,19 +905,19 @@
                                 <a class="nav-link active" id="top-all-link" data-toggle="tab" href="#top-all-tab" role="tab" aria-controls="top-all-tab" aria-selected="true">Tất cả</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="top-tv-link" data-toggle="tab" href="#top-tv-tab" role="tab" aria-controls="top-tv-tab" aria-selected="false">Iphone</a>
+                                <a class="nav-link" id="top-iphone-link" data-toggle="tab" href="#top-iphone-tab" role="tab" aria-controls="top-iphone-tab" aria-selected="false">iphone</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="top-computers-link" data-toggle="tab" href="#top-computers-tab" role="tab" aria-controls="top-computers-tab" aria-selected="false">Samsung</a>
+                                <a class="nav-link" id="top-samsung-link" data-toggle="tab" href="#top-samsung-tab" role="tab" aria-controls="top-samsung-tab" aria-selected="false">Samsung</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="top-phones-link" data-toggle="tab" href="#top-phones-tab" role="tab" aria-controls="top-phones-tab" aria-selected="false">Xiaomi</a>
+                                <a class="nav-link" id="top-xiaomi-link" data-toggle="tab" href="#top-xiaomi-tab" role="tab" aria-controls="top-xiaomi-tab" aria-selected="false">Xiaomi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="top-watches-link" data-toggle="tab" href="#top-watches-tab" role="tab" aria-controls="top-watches-tab" aria-selected="false">Oppo</a>
+                                <a class="nav-link" id="top-oppo-link" data-toggle="tab" href="#top-oppo-tab" role="tab" aria-controls="top-oppo-tab" aria-selected="false">Oppo</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="top-acc-link" data-toggle="tab" href="#top-acc-tab" role="tab" aria-controls="top-acc-tab" aria-selected="false">Nokia</a>
+                                <a class="nav-link" id="top-nokia-link" data-toggle="tab" href="#top-nokia-tab" role="tab" aria-controls="top-nokia-tab" aria-selected="false">Nokia</a>
                             </li>
                         </ul>
                    </div><!-- End .heading-right -->
@@ -1168,7 +1167,7 @@
                             </div><!-- End .product -->
                         </div><!-- End .owl-carousel -->
                     </div><!-- .End .tab-pane -->
-                    <div class="tab-pane p-0 fade" id="top-tv-tab" role="tabpanel" aria-labelledby="top-tv-link">
+                    <div class="tab-pane p-0 fade" id="top-iphone-tab" role="tabpanel" aria-labelledby="top-iphone-link">
                         <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow" data-toggle="owl" 
                             data-owl-options='{
                                 "nav": true, 
@@ -1377,7 +1376,7 @@
                             </div><!-- End .product -->
                         </div><!-- End .owl-carousel -->
                     </div><!-- .End .tab-pane -->
-                    <div class="tab-pane p-0 fade" id="top-computers-tab" role="tabpanel" aria-labelledby="top-computers-link">
+                    <div class="tab-pane p-0 fade" id="top-samsung-tab" role="tabpanel" aria-labelledby="top-samsung-link">
                         <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow" data-toggle="owl" 
                             data-owl-options='{
                                 "nav": true, 
@@ -1586,7 +1585,7 @@
                             </div><!-- End .product -->
                         </div><!-- End .owl-carousel -->
                     </div><!-- .End .tab-pane -->
-                    <div class="tab-pane p-0 fade" id="top-phones-tab" role="tabpanel" aria-labelledby="top-phones-link">
+                    <div class="tab-pane p-0 fade" id="top-xiaomi-tab" role="tabpanel" aria-labelledby="top-xiaomi-link">
                         <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow" data-toggle="owl" 
                             data-owl-options='{
                                 "nav": true, 
@@ -1829,7 +1828,7 @@
                             </div><!-- End .product -->
                         </div><!-- End .owl-carousel -->
                     </div><!-- .End .tab-pane -->
-                    <div class="tab-pane p-0 fade" id="top-watches-tab" role="tabpanel" aria-labelledby="top-watches-link">
+                    <div class="tab-pane p-0 fade" id="top-oppo-tab" role="tabpanel" aria-labelledby="top-oppo-link">
                         <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow" data-toggle="owl" 
                             data-owl-options='{
                                 "nav": true, 
@@ -2004,7 +2003,7 @@
                             </div><!-- End .product -->
                         </div><!-- End .owl-carousel -->
                     </div><!-- .End .tab-pane -->
-                    <div class="tab-pane p-0 fade" id="top-acc-tab" role="tabpanel" aria-labelledby="top-acc-link">
+                    <div class="tab-pane p-0 fade" id="top-nokia-tab" role="tabpanel" aria-labelledby="top-nokia-link">
                         <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow" data-toggle="owl" 
                             data-owl-options='{
                                 "nav": true, 
@@ -2221,8 +2220,8 @@
                                     <i class="icon-rocket"></i>
                                 </span>
                                 <div class="icon-box-content">
-                                    <h3 class="icon-box-title">Free Shipping</h3><!-- End .icon-box-title -->
-                                    <p>Orders $50 or more</p>
+                                    <h3 class="icon-box-title">Miễn phí giao hàng</h3><!-- End .icon-box-title -->
+                                    <p>Đặt hàng 5 triệu trở lên</p>
                                 </div><!-- End .icon-box-content -->
                             </div><!-- End .icon-box -->
                         </div><!-- End .col-sm-6 col-lg-3 -->
@@ -2234,8 +2233,8 @@
                                 </span>
 
                                 <div class="icon-box-content">
-                                    <h3 class="icon-box-title">Free Returns</h3><!-- End .icon-box-title -->
-                                    <p>Within 30 days</p>
+                                    <h3 class="icon-box-title">trả hàng miễn phí</h3><!-- End .icon-box-title -->
+                                    <p>Trong vòng 30 ngày</p>
                                 </div><!-- End .icon-box-content -->
                             </div><!-- End .icon-box -->
                         </div><!-- End .col-sm-6 col-lg-3 -->
@@ -2247,8 +2246,8 @@
                                 </span>
 
                                 <div class="icon-box-content">
-                                    <h3 class="icon-box-title">Get 20% Off 1 Item</h3><!-- End .icon-box-title -->
-                                    <p>when you sign up</p>
+                                    <h3 class="icon-box-title">Được giảm giá 20% cho 1 mặt hàng</h3><!-- End .icon-box-title -->
+                                    <p>Khi bạn đăng kí</p>
                                 </div><!-- End .icon-box-content -->
                             </div><!-- End .icon-box -->
                         </div><!-- End .col-sm-6 col-lg-3 -->
@@ -2260,8 +2259,8 @@
                                 </span>
 
                                 <div class="icon-box-content">
-                                    <h3 class="icon-box-title">We Support</h3><!-- End .icon-box-title -->
-                                    <p>24/7 amazing services</p>
+                                    <h3 class="icon-box-title">Chúng tôi hỗ trợ</h3><!-- End .icon-box-title -->
+                                    <p>Dịch vụ tuyệt vời 24/7</p>
                                 </div><!-- End .icon-box-content -->
                             </div><!-- End .icon-box -->
                         </div><!-- End .col-sm-6 col-lg-3 -->
@@ -2275,8 +2274,8 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="cta-wrapper cta-text text-center">
-                                    <h3 class="cta-title">Shop Social</h3><!-- End .cta-title -->
-                                    <p class="cta-desc">Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. </p><!-- End .cta-desc -->
+                                    <h3 class="cta-title">Mua sắm trên mạng xã hội</h3><!-- End .cta-title -->
+                                    <p class="cta-desc">Mua sắm thuận tiện và thông minh. </p><!-- End .cta-desc -->
                             
                                     <div class="social-icons social-icons-colored justify-content-center">
                                         <a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
@@ -2290,12 +2289,12 @@
 
                             <div class="col-lg-6">
                                 <div class="cta-wrapper text-center">
-                                    <h3 class="cta-title">Get the Latest Deals</h3><!-- End .cta-title -->
-                                    <p class="cta-desc">and <br>receive <span class="text-primary">$20 coupon</span> for first shopping</p><!-- End .cta-desc -->
+                                    <h3 class="cta-title">Nhận ưu đãi mới nhất</h3><!-- End .cta-title -->
+                                    <p class="cta-desc">và <br>nhận <span class="text-primary">phiếu giảm giá 500k</span> cho lần mua sắm đầu tiên</p><!-- End .cta-desc -->
                             
                                     <form action="#">
                                         <div class="input-group">
-                                            <input type="email" class="form-control" placeholder="Enter your Email Address" aria-label="Email Adress" required>
+                                            <input type="email" class="form-control" placeholder="Nhập địa chỉ email của bạn" aria-label="Email Adress" required>
                                             <div class="input-group-append">
                                                 <button class="btn btn-primary btn-rounded" type="submit"><i class="icon-long-arrow-right"></i></button>
                                             </div><!-- .End .input-group-append -->

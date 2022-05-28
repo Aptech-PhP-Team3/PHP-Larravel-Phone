@@ -45,11 +45,7 @@
                     </div><!-- End .header-left -->
 
                     <div class="header-right">
-
-                     
-
-                      <a href="{{Route('login')}}">Đăng nhập/Đăng ký</a>
-                            
+                        <a href="{{Route('login')}}">Đăng nhập / Đăng ký</a>
                     </div><!-- End .header-right -->
 
                 </div><!-- End .container -->
