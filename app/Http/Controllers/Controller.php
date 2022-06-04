@@ -15,5 +15,15 @@ class Controller extends BaseController
     {
         return view('login');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function category()
+    {
+        return view('category');
+    }
 }
 

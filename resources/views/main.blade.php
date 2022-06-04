@@ -33,7 +33,7 @@
     <!-- Main CSS File -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/skins/skin-demo-3.css">
-    <link rel="stylesheet" href="assets/css/demos/demo-3.css">
+    <link rel="stylesheet" href="assets/css/demos/demo-3.css">    
 </head>
 <body>
 <div class="page-wrapper">
@@ -41,7 +41,7 @@
             <div class="header-top">
                 <div class="container">
                     <div class="header-left">
-                        <a href="tel:#"><i class="icon-phone"></i>Call: +84 123 456 78</a>
+                        <a href="tel:#"><i class="icon-phone"></i>Call: +84 123 456 789</a>
                     </div><!-- End .header-left -->
 
                     <div class="header-right">
@@ -158,11 +158,11 @@
                         <nav class="main-nav">
                             <ul class="menu sf-arrows">
                                 <li class="megamenu-container active">
-                                    <a href="index.html" class="sf-with">Iphone</a>
+                                    <a href="index.blade.php" class="sf-with">Home</a>
 
                                 </li>
                                 <li>
-                                    <a href="category.html" class="sf-with-ul text-nowrap">Điện thoại</a>
+                                    <a href="{{Route('category')}}" class="sf-with-ul text-nowrap">Điện thoại</a>
                                         
                                     <div class="megamenu megamenu-sm">
                                         <div class="row no-gutters">
@@ -237,9 +237,7 @@
                                    
                                 </li>
                                 <li>
-                                    <a href="elements-list.html" class="sf-with text-nowrap">About us</a>
-
-                                   
+                                    <a href="{{Route('about')}}" class="sf-with text-nowrap">About us</a>
                                 </li>
                             </ul><!-- End .menu -->
                         </nav><!-- End .main-nav -->
@@ -484,6 +482,7 @@
         </div>
     </div>
 </div>
+
 <footer class="footer">
         	<div class="footer-middle">
 	            <div class="container">
@@ -496,7 +495,7 @@
 	            				<div class="widget-call">
                                     <i class="icon-phone"></i>
                                     Bạn có câu hỏi? Hãy gọi cho chúng tôi 24/7
-                                    <a href="tel:#">+84 12345678</a>         
+                                    <a href="tel:#">+84 1234 56789</a>         
                                 </div><!-- End .widget-call -->
 	            			</div><!-- End .widget about-widget -->
 	            		</div><!-- End .col-sm-6 col-lg-3 -->

@@ -1,5 +1,5 @@
-
-
+@extends('main')
+@section('content')
 
         <main class="main">
             <div class="intro-section pt-3 pb-3 mb-2">
@@ -2309,8 +2309,5 @@
         </main><!-- End .main -->
     
     <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
-@endsection
     
-
-
-
+@endsection

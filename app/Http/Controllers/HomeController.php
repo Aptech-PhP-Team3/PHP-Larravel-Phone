@@ -29,4 +29,12 @@ class HomeController extends Controller
     {
         return view('login');
     }
+    public function about()
+    {
+        return view('about');
+    }
+    public function category()
+    {
+        return view('category');
+    }
 }
